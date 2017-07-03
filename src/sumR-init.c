@@ -1,4 +1,4 @@
-#include "sum.h"
+#include "sumC.h"
 
 #include <R_ext/Rdynload.h>
 
