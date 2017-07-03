@@ -7,7 +7,8 @@
 #' 
 #' @examples
 #' sumR(1, 2)
-
+#'
+#' @export
 sumR <- function(x, y) {
   return(x + y)
 }

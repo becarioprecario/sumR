@@ -19,4 +19,5 @@ Addition of two numbers.
 }
 \examples{
 sumR(1, 2)
+
 }
