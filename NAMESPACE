@@ -2,4 +2,6 @@
 
 export(sumR)
 export(sumRC)
+export(sumRCall)
 useDynLib(sumR,sumC)
+useDynLib(sumR,sumCall)
