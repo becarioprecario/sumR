@@ -1,4 +1,10 @@
-#' Addition of two numbers.
+#' @name sumR
+#' @rdname sumR
+#'
+#' @title Addition of two numbers.
+#'
+#' @description This package contains several functions to compute the addition
+#' of two numbers.
 #'
 #' @param x A number.
 #' @param y A number.
