@@ -4,7 +4,7 @@ Version: 0.0.1
 Authors@R: person("Virgilio", "Gómez-Rubio", email = "Virgilio.Gomez@uclm.es", role = c("aut", "cre"))
 Description: This packages computes the addition of two numbers (i.e., the sum).
 Depends: R (>= 3.4.0)
-License: GPL4
+License: GPL
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
