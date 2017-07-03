@@ -8,11 +8,11 @@ test_that("sumR returns a single number", {
 })
 
 test_that("sumR returns a double value", {
-  expect_type(sumRC(1,1), "double")
+  expect_type(sumRC(1, 1), "double")
 })
 
 test_that("Example of skipped test", {
   skip("I wil skip this test")
-  expect_type(sumRC(1,1), "integer")
+  expect_type(sumRC(1, 1), "integer")
 
 })

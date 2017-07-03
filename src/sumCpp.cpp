@@ -11,7 +11,7 @@ using namespace Rcpp;
 //'
 //' @export
 // [[Rcpp::export]]
-int sumCpp (int x, int y) {
+double sumCpp (double x, double y) {
   return x + y;
 }
 
