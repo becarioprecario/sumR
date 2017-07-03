@@ -1,3 +1,13 @@
+#' Addition of two numbers.
+#'
+#' @param x A number.
+#' @param y A number.
+#'
+#' @return The addition of \code{x} and \code{y}.
+#' 
+#' @examples
+#' sumR(1, 2)
+
 sumR <- function(x, y) {
   return(x + y)
 }
