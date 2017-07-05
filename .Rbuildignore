@@ -3,3 +3,4 @@
 .travis.yml
 src/*.o
 src/*.so
+README.md
