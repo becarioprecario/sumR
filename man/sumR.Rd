@@ -6,7 +6,7 @@
 \alias{sumR}
 \alias{sumRC}
 \alias{sumRCall}
-\title{Addition of two numbers.}
+\title{Addition of two numbers}
 \usage{
 sumCpp(x, y)
 
