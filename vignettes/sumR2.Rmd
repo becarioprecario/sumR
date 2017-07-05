@@ -2,12 +2,12 @@
 title: "sumR vignette"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{sumR vignette}
+  %\VignetteIndexEntry{sumR2 vignette}
   %\VignetteEngine{knitr::rmarkdown}
   \usepackage[utf8]{inputenc}
 ---
 
-# Example of sumR
+# Example on sumR
 
 ## Introduction
 
