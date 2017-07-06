@@ -45,7 +45,7 @@ programming approaches:
 
 \item `sumRCall` uses the `.Call` interface to compute the sum using `C` code.
 
-\item `sumRCpp` uses `Rcpp`to call `C++` code to compute the sum. 
+\item `sumRRcpp` uses `Rcpp`to call `C++` code to compute the sum. 
 
 \end{itemize}
 
@@ -58,7 +58,7 @@ sumRC(1, 2)
 
 sumRCall(1,2)
 
-sumRCpp(1, 2)
+sumRRcpp(1, 2)
 @
 
 \end{document}

@@ -5,15 +5,15 @@
 
 using namespace Rcpp;
 
-// sumCpp
-double sumCpp(double x, double y);
-RcppExport SEXP sumR_sumCpp(SEXP xSEXP, SEXP ySEXP) {
+// sumRRcpp
+double sumRRcpp(double x, double y);
+RcppExport SEXP sumR_sumRRcpp(SEXP xSEXP, SEXP ySEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< double >::type x(xSEXP);
     Rcpp::traits::input_parameter< double >::type y(ySEXP);
-    rcpp_result_gen = Rcpp::wrap(sumCpp(x, y));
+    rcpp_result_gen = Rcpp::wrap(sumRRcpp(x, y));
     return rcpp_result_gen;
 END_RCPP
 }

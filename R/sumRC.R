@@ -10,7 +10,7 @@
 #'
 #' @useDynLib sumR sumC
 sumRC <- function(x, y) {
-  res <- .C("sumC", x , y, numeric(1), PACKAGE = "sumR")
+  res <- .C("sumC", as.double(x) , as.double(y), double(1), PACKAGE = "sumR")
 
   return(res[[3]])
 }
