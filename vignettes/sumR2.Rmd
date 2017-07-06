@@ -33,7 +33,7 @@ programming approaches:
 
 * `sumRCall` uses the `.Call` interface to compute the sum using `C` code.
 
-* `sumRRcpp` uses `Rcpp`to call `C++` code to compute the sum. 
+[comment]: # * `sumRRcpp` uses `Rcpp`to call `C++` code to compute the sum. 
 
 
 ```{r}
@@ -45,5 +45,5 @@ sumRC(1, 2)
 
 sumRCall(1,2)
 
-sumRRcpp(1, 2)
+#sumRRcpp(1, 2)
 ```
