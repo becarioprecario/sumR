@@ -61,4 +61,10 @@ sumRCall(1,2)
 #sumRRcpp(1, 2)
 @
 
+
+<<fig = TRUE, echo = FALSE >>=
+plot(1:10)
+
+@
+
 \end{document}
